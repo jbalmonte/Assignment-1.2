@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden; overflow-y: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header{
+    margin: auto auto 1.5em auto;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+}
+
+.header img{
+    width: 141.96ox;
+    height: 141px;
+    margin-top: 10px;
+    padding: 2px;
+    vertical-align: middle;
+
+}
+
+.PUP-txt{
+    position: absolute;
+    margin-left:4em;
+    margin-top: 25px;
+    padding-left:10px;
+    color: #800000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.subtext{
+    position: absolute;
+    color: #800000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin:4em 0 4em 4em;
+    padding: 4px;
+    left: 15.4em;
+}
+
+.navigation{
+    position: relative;
+    left: 25%;
+   padding: 0em;
+}
+
+.navigation a{
+    margin-top: 2em;
+    padding: 3em 7em 2em 0;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+}
+
+.announcement-icon,.news-icon{
+    margin-right: 50px;
+    padding: 0;
+    width: 45px;
+    height: 45px;
+}
+
+.news-label, .announcement-label{
+    margin:3em 0 -.5em 12em;
+    padding:0;
+    display: flex;
+    width: 547px;
+    height: 84px;
+
+}
+
+.news-label p, .announcement-label p{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.container-left{ 
+    width: 49.5%;
+    float: left;
+}
+
+.news1,.news2{
+    border: solid 1px black;
+    width: 70%;
+    padding: .3em .3em .3em .5em;
+    margin-left: 25%;
+}
+
+.label1,.label2{
+    color:#800000;
+    padding: 0;
+}
+
+.p1,.p2{
+    
+    text-indent:50px;
+}
+
+.date1,.date2{
+    color: #4A3F3F;
+}
+
+.vertical-line{
+    border-left: 3px solid #7D7D7D;
+    height: 491px;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.6em;
+    top: 42%;
+}
+
+.announcement-list li{
+    width: 90%;
+    padding-bottom: 1em;
+    margin-bottom: 10px;
+} 
+
+.announcement-list a{
+    text-decoration: none;
+    color: black;
+}
+
+.label1:hover, .label2:hover, .announcement-list a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    margin: 7em 0 0 0;
+    background-color: #1E1B1B;
+    color: white;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-email{
+display: flex;
+justify-content: center;
+padding: 0;
+margin: 0;
+}
+
+.contact{
+color:#FEDE00;
+margin-right: 10px;
+margin-bottom: 0;
+padding: 0;
+}
+
+.copyright{
+    padding-top: -15px;
+    margin-top: -5px;
+}
+
